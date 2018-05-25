@@ -9,7 +9,7 @@
   if (p < 0)
     p.textContent = 'Menos de 1 min';
   else if (p > 1)
-    t.textContent = ' ' + p + ' min'
+    t.textContent = ' ' + p + ' min';
   else
     t.textContent = ' ' + p + ' mins';
 }();
