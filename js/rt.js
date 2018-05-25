@@ -3,7 +3,7 @@
       p = `<data:post.body/>`,
       wpm = 200;
 
-  p = pb.split(' ');
+  p = p.split(' ');
   p = Math.round(p.length / wpm);
 
   if (p < 0)
